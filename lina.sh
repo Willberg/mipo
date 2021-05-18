@@ -10,4 +10,6 @@ yarn install && yarn build
 
 
 #拷贝文件
-mv /home/code/lina/dist /home/server/lina
+rm -rf /home/server/lina
+mv /home/code/lina/dist /home/server/
+mv /home/server/dist /home/server/lina
